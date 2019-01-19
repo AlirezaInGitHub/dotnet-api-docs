@@ -243,7 +243,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Not all printers support printing multiple copes. You can use the <xref:System.Drawing.Printing.PrinterSettings.MaximumCopies%2A> property to determine the maximum number of copies the printer supports. If the number of copies is set higher than the maximum copies supported by the printer, only the maximum number of copies will be printed, and no exception will occur.  
+ Not all printers support printing multiple copies. You can use the <xref:System.Drawing.Printing.PrinterSettings.MaximumCopies%2A> property to determine the maximum number of copies the printer supports. If the number of copies is set higher than the maximum copies supported by the printer, only the maximum number of copies will be printed, and no exception will occur.  
   
 > [!NOTE]
 >  Some printers might not support printing more than one copy at a time.  
